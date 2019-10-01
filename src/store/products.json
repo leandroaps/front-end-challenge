@@ -1,6 +1,5 @@
 {
-  "products": [
-    {
+  "products": [{
       "name": "VESTIDO TRANSPASSE BOW",
       "style": "20002605",
       "code_color": "20002605_613",
@@ -12,8 +11,7 @@
       "discount_percentage": "",
       "installments": "3x R$ 66,63",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20002605_615_catalog_1.jpg?1460136912",
-      "sizes": [
-        {
+      "sizes": [{
           "available": false,
           "size": "PP",
           "sku": "5807_343_0_PP"
@@ -52,8 +50,7 @@
       "discount_percentage": "",
       "installments": "3x R$ 33,30",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20002570_002_catalog_1.jpg?1459948578",
-      "sizes": [
-        {
+      "sizes": [{
           "available": true,
           "size": "PP",
           "sku": "5723_40130843_0_PP"
@@ -92,8 +89,7 @@
       "discount_percentage": "",
       "installments": "3x R$ 43,30",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20002575_027_catalog_1.jpg?1459537946",
-      "sizes": [
-        {
+      "sizes": [{
           "available": false,
           "size": "PP",
           "sku": "5733_1000054_0_PP"
@@ -132,8 +128,7 @@
       "discount_percentage": "",
       "installments": "3x R$ 49,97",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20002581_614_catalog_1.jpg?1459536611",
-      "sizes": [
-        {
+      "sizes": [{
           "available": false,
           "size": "PP",
           "sku": "5749_341_0_PP"
@@ -172,8 +167,7 @@
       "discount_percentage": "12%",
       "installments": "3x R$ 39,97",
       "image": "",
-      "sizes": [
-        {
+      "sizes": [{
           "available": true,
           "size": "PP",
           "sku": "5793_1000032_0_PP"
@@ -212,8 +206,7 @@
       "discount_percentage": "",
       "installments": "3x R$ 63,30",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20002584_035_catalog_1.jpg?1459947139",
-      "sizes": [
-        {
+      "sizes": [{
           "available": false,
           "size": "PP",
           "sku": "5755_1000070_0_PP"
@@ -252,8 +245,7 @@
       "discount_percentage": "",
       "installments": "3x R$ 53,30",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20002634_613_catalog_1.jpg?1459548109",
-      "sizes": [
-        {
+      "sizes": [{
           "available": true,
           "size": "36",
           "sku": "5865_339_0_36"
@@ -292,8 +284,7 @@
       "discount_percentage": "",
       "installments": "3x R$ 33,30",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20002570_029_catalog_1.jpg?1459948578",
-      "sizes": [
-        {
+      "sizes": [{
           "available": true,
           "size": "PP",
           "sku": "5723_1000058_0_PP"
@@ -332,8 +323,7 @@
       "discount_percentage": "",
       "installments": "3x R$ 49,97",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20002612_612_catalog_1.jpg?1459531023",
-      "sizes": [
-        {
+      "sizes": [{
           "available": false,
           "size": "PP",
           "sku": "5819_337_0_PP"
@@ -372,13 +362,11 @@
       "discount_percentage": "25%",
       "installments": "3x R$ 53,30",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20002945_027_catalog_1.jpg?1459540966",
-      "sizes": [
-        {
-          "available": true,
-          "size": "U",
-          "sku": "6559_1000054_0_U"
-        }
-      ]
+      "sizes": [{
+        "available": true,
+        "size": "U",
+        "sku": "6559_1000054_0_U"
+      }]
     },
     {
       "name": "VESTIDO LONGO FLOAT",
@@ -392,8 +380,7 @@
       "discount_percentage": "",
       "installments": "3x R$ 73,30",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20002606_615_catalog_1.jpg?1459515279",
-      "sizes": [
-        {
+      "sizes": [{
           "available": true,
           "size": "PP",
           "sku": "5811_343_0_PP"
@@ -432,8 +419,7 @@
       "discount_percentage": "",
       "installments": "3x R$ 49,97",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20002581_611_catalog_1.jpg?1459536611",
-      "sizes": [
-        {
+      "sizes": [{
           "available": false,
           "size": "PP",
           "sku": "5749_333_0_PP"
@@ -472,8 +458,7 @@
       "discount_percentage": "50%",
       "installments": "2x R$ 34,95",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20001609_002_catalog_1.jpg?",
-      "sizes": [
-        {
+      "sizes": [{
           "available": true,
           "size": "PP",
           "sku": "3627_40130843_0_PP"
@@ -512,8 +497,7 @@
       "discount_percentage": "39%",
       "installments": "2x R$ 42,45",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20001786_594_catalog_1.jpg?1449159646",
-      "sizes": [
-        {
+      "sizes": [{
           "available": true,
           "size": "36",
           "sku": "4029_259_0_36"
@@ -552,8 +536,7 @@
       "discount_percentage": "50%",
       "installments": "2x R$ 34,95",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20001695_063_catalog_1.jpg?",
-      "sizes": [
-        {
+      "sizes": [{
           "available": false,
           "size": "36",
           "sku": "3787_233_0_36"
@@ -592,8 +575,7 @@
       "discount_percentage": "",
       "installments": "3x R$ 49,97",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20002600_293_catalog_1.jpg?1460416037",
-      "sizes": [
-        {
+      "sizes": [{
           "available": true,
           "size": "PP",
           "sku": "5789_311_0_PP"
@@ -632,8 +614,7 @@
       "discount_percentage": "",
       "installments": "3x R$ 49,97",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20002829_006_catalog_1.jpg?1459550820",
-      "sizes": [
-        {
+      "sizes": [{
           "available": false,
           "size": "PP",
           "sku": "6299_1000012_0_PP"
@@ -672,8 +653,7 @@
       "discount_percentage": "",
       "installments": "3x R$ 79,97",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20002648_029_catalog_1.jpg?1459552552",
-      "sizes": [
-        {
+      "sizes": [{
           "available": false,
           "size": "PP",
           "sku": "5891_1000058_0_PP"
@@ -712,8 +692,7 @@
       "discount_percentage": "54%",
       "installments": "1x R$ 59,90",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20001684_585_catalog_1.jpg?",
-      "sizes": [
-        {
+      "sizes": [{
           "available": false,
           "size": "PP",
           "sku": "3765_211_0_PP"
@@ -752,13 +731,11 @@
       "discount_percentage": "55%",
       "installments": "1x R$ 49,90",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20001882_008_catalog_1.jpg?",
-      "sizes": [
-        {
-          "available": true,
-          "size": "U",
-          "sku": "4229_1000016_0_U"
-        }
-      ]
+      "sizes": [{
+        "available": true,
+        "size": "U",
+        "sku": "4229_1000016_0_U"
+      }]
     },
     {
       "name": "ÓCULOS DE SOL AVIADOR VINTAGE",
@@ -772,13 +749,11 @@
       "discount_percentage": "55%",
       "installments": "1x R$ 49,90",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20001883_019_catalog_1.jpg?",
-      "sizes": [
-        {
-          "available": true,
-          "size": "U",
-          "sku": "4231_1000038_0_U"
-        }
-      ]
+      "sizes": [{
+        "available": true,
+        "size": "U",
+        "sku": "4231_1000038_0_U"
+      }]
     },
     {
       "name": "PULSEIRA STYLISH",
@@ -792,13 +767,11 @@
       "discount_percentage": "",
       "installments": "1x R$ 29,90",
       "image": "https://d3l7rqep7l31az.cloudfront.net/images/products/20001913_009_catalog_1.jpg?",
-      "sizes": [
-        {
-          "available": true,
-          "size": "U",
-          "sku": "4279_1000018_0_U"
-        }
-      ]
+      "sizes": [{
+        "available": true,
+        "size": "U",
+        "sku": "4279_1000018_0_U"
+      }]
     }
   ]
 }
