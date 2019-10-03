@@ -1,4 +1,4 @@
-import React, { createContext, useReducer } from 'react';
+import React, {createContext, useReducer} from "react";
 
 export const Store = createContext();
 
@@ -9,14 +9,14 @@ const initialState = {
 
 function reducer(state, action) {
   switch (action.type) {
-    case 'FETCH_DATA':
-      return { ...state, products: action.payload };
-    case 'ADD_FAV':
+    case "FETCH_DATA":
+      return {...state, products: action.payload};
+    case "ADD_FAV":
       return {
         ...state,
         favourites: [...state.favourites, action.payload],
       };
-    case 'REMOVE_FAV':
+    case "REMOVE_FAV":
       return {
         ...state,
         favourites: action.payload,
@@ -28,6 +28,6 @@ function reducer(state, action) {
 
 export function StoreProvider(props) {
   const [state, dispatch] = useReducer(reducer, initialState);
-  const value = { state, dispatch };
+  const value = {state, dispatch};
   return <Store.Provider value={value}>{props.children}</Store.Provider>;
 }

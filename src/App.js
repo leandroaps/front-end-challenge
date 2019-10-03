@@ -1,9 +1,12 @@
+import React, { useContext } from 'react';
+import { Link } from '@reach/router';
+
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/style.css';
+import './assets/amaro.css';
 
-import React, { useContext } from 'react';
 
-import { Link } from '@reach/router';
 import { Store } from './store/Store';
 
 function App({ children }) {
@@ -31,7 +34,9 @@ function App({ children }) {
             Home
           </Link>
           <Link to="/faves" className="btn btn-secondary">
-            Favourite(s) {state.favourites.length}
+            Favourite(s)
+
+            {state.favourites.length}
           </Link>
         </div>
       </nav>

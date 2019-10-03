@@ -1,6 +1,9 @@
-import React, { lazy, useContext, useEffect, Suspense } from 'react';
-import { Store } from '../store/Store';
+import React, {
+  Suspense, lazy, useContext, useEffect,
+} from 'react';
 import { fetchDataAction, toggleStore } from '../store/Actions';
+
+import { Store } from '../store/Store';
 
 const ProductsList = lazy(() => import('../components/ProductsList'));
 
@@ -21,8 +24,24 @@ export default function HomePage() {
   return (
     <>
       <Suspense fallback={<div>Loading...</div>}>
-        <div className="card-columns">
-          <ProductsList {...props} />
+        <div className="container-fluid mt-6">
+          <div className="jumbotron">
+            <h1 className="display-4">Hello, world!</h1>
+            <p className="lead">
+              This is a simple hero unit, a simple jumbotron-style component for calling
+              extra attention to featured content or information.
+            </p>
+            <p>
+              It uses utility classes for typography and spacing to space content out
+              within the larger container.
+            </p>
+            <a className="btn btn-primary btn-lg" href="/" role="button">
+              Learn more
+            </a>
+          </div>
+          <div className="card-columns">
+            <ProductsList {...props} />
+          </div>
         </div>
       </Suspense>
     </>

@@ -13,13 +13,13 @@ The objective of this challenge is to build a catalog page for some products of 
 
 - The app must be responsive. Use a **mobile-first** approach.
 - For each item on the catalog, the following information must be present on the page:
-    - Image
-    - Name
-    - Price
-    - Promo Status
-    - Promo price (if available)
-    - Available Sizes
-    - Sale badge
+  - Image
+  - Name
+  - Price
+  - Promo Status
+  - Promo price (if available)
+  - Available Sizes
+  - Sale badge
 - It must be possible to add products by size to the cart.
 - It must be possible to view the cart with the items you've added (name, image, price, quantity) and the grand total.
 - The cart should be persisted between reloads.

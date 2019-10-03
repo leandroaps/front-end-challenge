@@ -1,41 +1,13 @@
 {
   "env": {
     "browser": true,
-    "commonjs": true,
     "es6": true,
-    "jest": true,
-    "node": true
+    "node": true,
+    "jest": true
   },
   "extends": [
-    "airbnb",
-    "plugin:react/recommended",
-    "plugin:jsx-a11y/strict",
-    "plugin:prettier/recommended",
-    "prettier/react"
+    "airbnb"
   ],
-  "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true,
-      "modules": true,
-      "experimentalObjectRestSpread": true
-    }
-  },
-  "plugins": [
-    "react", "react-hooks", "jsx-a11y", "prettier"
-  ],
-  "rules": {
-    "react/jsx-filename-extension": [1, {
-      "extensions": [".js", ".jsx"]
-    }],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
-    "no-console": "off",
-    "react/prop-types": 0,
-    "prettier/prettier": ["error"]
-  },
   "globals": {
     "window": true,
     "document": true,
@@ -43,6 +15,34 @@
     "FormData": true,
     "FileReader": true,
     "Blob": true,
-    "navigator": true
+    "navigator": true,
+    "page": true,
+    "browser": true,
+    "context": true,
+    "jestPuppeteer": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "react/prop-types": 0,
+    "no-underscore-dangle": 0,
+    "import/imports-first": ["error", "absolute-first"],
+    "import/newline-after-import": "error",
+    "no-console": "off"
   }
 }
