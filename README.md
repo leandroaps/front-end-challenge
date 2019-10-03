@@ -41,3 +41,9 @@ What we expect that you learn from us:
 Do you have in doubt related to the process? Open an [issue](https://github.com/amaroteam/front-end-challenge/issues) and we'll be happy to help.
 
 **Break a leg!**
+
+## HOW TO RUN
+
+- Pelo terminal, dentro da pasta do projeto, rode o comando `yarn` para instalar as dependências;
+- Ainda no termina, rode o comando `yarn start` para abrir o projeto no navegador
+- Acesse por http://localhost:3000
