@@ -1,14 +1,19 @@
-import { Link } from '@reach/router';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React from 'react';
 
-function App(props) {
+import React, { useContext } from 'react';
+
+import { Link } from '@reach/router';
+import { Store } from './store/Store';
+
+function App({ children }) {
+  const { state } = useContext(Store);
+
   return (
     <>
       <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <Link to="/" className="navbar-brand">
-          Rick and Morty
+          AMARO
         </Link>
         <button
           className="navbar-toggler"
@@ -21,8 +26,16 @@ function App(props) {
         >
           <span className="navbar-toggler-icon" />
         </button>
+        <div className="btn-group" role="group" aria-label="FAV">
+          <Link to="/" className="btn btn-secondary">
+            Home
+          </Link>
+          <Link to="/faves" className="btn btn-secondary">
+            Favourite(s) {state.favourites.length}
+          </Link>
+        </div>
       </nav>
-      {props.children}
+      {children}
     </>
   );
 }

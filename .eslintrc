@@ -8,8 +8,8 @@
   },
   "extends": [
     "airbnb",
-    "plugin:jsx-a11y/strict",
     "plugin:react/recommended",
+    "plugin:jsx-a11y/strict",
     "plugin:prettier/recommended",
     "prettier/react"
   ],
@@ -35,5 +35,14 @@
     "no-console": "off",
     "react/prop-types": 0,
     "prettier/prettier": ["error"]
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true
   }
 }
