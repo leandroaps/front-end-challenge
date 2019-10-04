@@ -16,7 +16,9 @@ export default function FavPage() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <div className="container-fluid mt-6">
-        <ProductsList {...props} />
+        <div className="card-columns">
+          <ProductsList {...props} />
+        </div>
       </div>
     </Suspense>
   );

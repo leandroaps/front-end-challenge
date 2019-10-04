@@ -8,12 +8,12 @@ export const fetchDataAction = async dispatch => {
 };
 
 export const toggleStore = (product, state, dispatch) => {
-  const episodeInFavourites = state.favourites.includes(product);
+  const productsBag = state.favourites.includes(product);
   let dispatchObj = {
     type: "ADD_FAV",
     payload: product,
   };
-  if (episodeInFavourites)
+  if (productsBag)
     dispatchObj = {
       type: "REMOVE_FAV",
       payload: state.favourites.filter(fav => fav.id !== product.id),

@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/style.css';
 import './assets/amaro.css';
 
-
 import { Store } from './store/Store';
 
 function App({ children }) {
@@ -35,7 +34,6 @@ function App({ children }) {
           </Link>
           <Link to="/faves" className="btn btn-secondary">
             Favourite(s)
-
             {state.favourites.length}
           </Link>
         </div>
