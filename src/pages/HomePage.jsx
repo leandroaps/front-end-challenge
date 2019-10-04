@@ -24,8 +24,8 @@ export default function HomePage() {
   return (
     <>
       <Suspense fallback={<div>Loading...</div>}>
-        <div className="container-fluid mt-6">
-          <div className="jumbotron">
+        <div className="container-fluid px-xl-7 py-6">
+          <div className="swiper-container swiper-container-fade swiper-container-initialized swiper-container-horizontal">
             <h1 className="display-4">Hello, world!</h1>
             <p className="lead">
               This is a simple hero unit, a simple jumbotron-style component for calling
@@ -39,7 +39,7 @@ export default function HomePage() {
               Learn more
             </a>
           </div>
-          <div className="card-columns">
+          <div className="card-deck">
             <ProductsList {...props} />
           </div>
         </div>
