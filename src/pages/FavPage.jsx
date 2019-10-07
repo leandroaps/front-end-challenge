@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React, { lazy, useContext, Suspense } from 'react';
 import { Store } from '../store/Store';
 import { toggleStore } from '../store/Actions';

@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-expressions */
+/* eslint-disable react/jsx-props-no-spreading */
 import React, {
   Suspense, lazy, useContext, useEffect,
 } from 'react';
@@ -25,16 +27,9 @@ export default function HomePage() {
     <>
       <Suspense fallback={<div>Loading...</div>}>
         <div className="container-fluid px-xl-7 py-6">
-          <div className="swiper-container swiper-container-fade swiper-container-initialized swiper-container-horizontal">
-            <h1 className="display-4">Hello, world!</h1>
-            <p className="lead">
-              This is a simple hero unit, a simple jumbotron-style component for calling
-              extra attention to featured content or information.
-            </p>
-            <p>
-              It uses utility classes for typography and spacing to space content out
-              within the larger container.
-            </p>
+          <div className="jumbotron">
+            <h1 className="display-4">razões para amar</h1>
+            <p className="lead">Tendências, peças essenciais e conteúdo de moda original que te inspiram a experimentar diferentes estilos.</p>
             <a className="btn btn-primary btn-lg" href="/" role="button">
               Learn more
             </a>

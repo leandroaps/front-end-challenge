@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap';
-import './assets/amaro.css';
+import './assets/styles/amaro.css';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
