@@ -6,7 +6,7 @@
     "jest": true
   },
   "extends": [
-    "airbnb"
+    "airbnb", "prettier"
   ],
   "globals": {
     "window": true,
@@ -30,7 +30,7 @@
     "sourceType": "module"
   },
   "plugins": [
-    "react"
+    "react", "prettier"
   ],
   "rules": {
     "react/jsx-filename-extension": [
@@ -43,6 +43,8 @@
     "no-underscore-dangle": 0,
     "import/imports-first": ["error", "absolute-first"],
     "import/newline-after-import": "error",
-    "no-console": "off"
+    "no-console": "off",
+    "prettier/prettier": ["error"],
+    "no-unused-expressions": "off"
   }
 }
