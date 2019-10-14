@@ -5,7 +5,7 @@ export default function ProductsList({products, toggleStore, favourites, state})
   return products.map(product => (
     <div key={product.image}>
       {product.image && product.name && product.regular_price ? (
-        <div className="card card-poster gradient-overlay mt-2 mb-3">
+        <div className="product card card-poster gradient-overlay mt-2 mb-3">
           <img src={product.image} className="card-img-top" alt="..." />
           {product.discount_percentage ? (
             <div className="card-img-overlay">
@@ -37,7 +37,7 @@ export default function ProductsList({products, toggleStore, favourites, state})
               className="btn btn-dark"
               onClick={() => toggleStore(product, state.state, state.dispatch)}
             >
-              {favourites.find(fav => fav.image === product.image) ? "REMOVE" : "BUY"}
+              {favourites.find(fav => fav.name === product.name) ? "REMOVE" : "BUY"}
             </button>
           </div>
         </div>

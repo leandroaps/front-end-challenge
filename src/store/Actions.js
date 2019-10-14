@@ -18,5 +18,8 @@ export const toggleStore = (product, state, dispatch) => {
       type: "REMOVE_FAV",
       payload: state.favourites.filter(fav => fav.id !== product.id),
     };
+
+  localStorage.removeItem(fav => fav.id !== product.id);
+
   return dispatch(dispatchObj);
 };

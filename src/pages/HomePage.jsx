@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React, {Suspense, lazy, useContext, useMemo} from "react";
 import {fetchDataAction, toggleStore} from "../store/Actions";
 
@@ -11,6 +12,13 @@ export default function HomePage() {
   useMemo(() => {
     state.products.length === 0 && fetchDataAction(dispatch);
   }, [dispatch, state]);
+
+  const props = {
+    products: state.products,
+    state: {state, dispatch},
+    toggleStore,
+    favourites: state.favourites,
+  };
 
   return (
     <>
@@ -27,12 +35,7 @@ export default function HomePage() {
             </a>
           </div>
           <div className="card-deck">
-            <ProductsList
-              products={state.products}
-              state={(state, dispatch)}
-              toggleStore={toggleStore}
-              favourites={state.favourites}
-            />
+            <ProductsList {...props} />
           </div>
         </div>
       </Suspense>

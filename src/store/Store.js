@@ -1,11 +1,11 @@
-import React, {createContext, useReducer} from "react";
-
-export const Store = createContext();
+import React, {createContext, useReducer, useEffect} from "react";
 
 const initialState = {
   products: [],
   favourites: [],
 };
+
+const localState = JSON.parse(localStorage.getItem("amaro"));
 
 function reducer(state, action) {
   switch (action.type) {
@@ -25,9 +25,15 @@ function reducer(state, action) {
       return state;
   }
 }
+export const Store = createContext();
 
-export function StoreProvider(props) {
-  const [state, dispatch] = useReducer(reducer, initialState);
+export function StoreProvider({children}) {
+  const [state, dispatch] = useReducer(reducer, localState || initialState);
   const value = {state, dispatch};
-  return <Store.Provider value={value}>{props.children}</Store.Provider>;
+
+  useEffect(() => {
+    localStorage.setItem("amaro", JSON.stringify(state));
+  }, [state]);
+
+  return <Store.Provider value={value}>{children}</Store.Provider>;
 }
